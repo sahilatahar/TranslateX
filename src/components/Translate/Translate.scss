@@ -1,0 +1,49 @@
+@import "../../scss/colors.scss";
+
+.Translate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .logo {
+    width: 200px;
+    margin: 3rem 0;
+  }
+}
+
+.TranslationCards {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: 1200px) {
+    width: 95%;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    gap: 1rem;
+  }
+}
+
+// Scrollbar Styling
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $black-3;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $grey-2;
+  border-radius: 1rem;
+}
