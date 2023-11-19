@@ -1,5 +1,5 @@
 import './Translate.scss';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import { useEffect, useRef, useState } from 'react';
 import TranslationCard from './TranslationCard/TranslationCard';
 import { ToastContainer, toast } from 'react-toastify';
@@ -140,7 +140,10 @@ const Translate = () => {
                 pauseOnHover
                 theme="dark"
             />
-            <img src={logo} alt="" className='logo' />
+            <h1 className='logo'>
+                <img src={logo} alt="" />
+                TranslateX
+            </h1>
             <main className='TranslationCards'>
                 <TranslationCard
                     languageName={translationLanguages.from.name}

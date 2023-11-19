@@ -7,8 +7,17 @@
   width: 100%;
 
   .logo {
-    width: 200px;
+    height: 50px;
     margin: 3rem 0;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    img {
+      height: 100%;
+    }
   }
 }
 
