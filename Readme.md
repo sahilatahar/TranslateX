@@ -1,4 +1,6 @@
-<h1 align='center' >TranslateX</h1>
+<h1 align='center'>TranslateX</h1>
+
+![image](https://github.com/sahilatahar/TranslateX/assets/100127570/7e071cd2-d5bd-4294-8995-0361dad16d00)
 
 TranslateX is a web-based **translation application** designed to translate text between different languages. This application provides a simple and intuitive interface for users to translate text, supporting multiple languages.
 
